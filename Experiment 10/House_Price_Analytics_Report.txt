@@ -1,0 +1,83 @@
+
+EXPERIMENT NO. 10
+END-TO-END DATA ANALYTICS PROJECT:
+BUSINESS INTELLIGENCE AND PREDICTIVE ANALYTICS
+
+1. AIM
+To implement a complete data analytics workflow using a real-world
+House Price Prediction dataset.
+
+2. DATASET
+Dataset Name: House Price Prediction Dataset
+Original File: House Price Prediction Dataset.csv
+Original Rows: 2000
+Original Columns: 10
+Rows After Cleaning: 2000
+Target Variable: Price
+
+3. METHODOLOGY
+- Dataset collection and loading
+- Data cleaning and preprocessing
+- Duplicate and missing-value checks
+- IQR-based outlier detection
+- Exploratory Data Analysis
+- Statistical correlation analysis
+- One-way ANOVA hypothesis testing
+- Data visualization and interactive charts
+- Linear Regression model training
+- Model evaluation
+- Business insight generation
+
+4. EXPLORATORY DATA ANALYSIS
+Average House Price: 537676.85
+Median House Price: 539254.00
+Minimum House Price: 50005.00
+Maximum House Price: 999656.00
+
+5. STATISTICAL ANALYSIS
+Pearson Correlation (Area vs Price): 0.0015
+Correlation P-value: 0.945051
+ANOVA F-statistic: 1.5714
+ANOVA P-value: 0.194322
+
+6. MACHINE LEARNING MODEL
+Algorithm: Linear Regression
+Training Samples: 1600
+Testing Samples: 400
+Input Features: Area, Bedrooms, Bathrooms, Floors, YearBuilt, Location, Condition, Garage
+Target Variable: Price
+
+7. MODEL PERFORMANCE
+Mean Absolute Error (MAE): 243241.98
+Mean Squared Error (MSE): 78321466146.03
+Root Mean Squared Error (RMSE): 279859.73
+R2 Score: -0.0067
+
+8. IMPORTANT FEATURES
+  Feature  Importance
+ Location    0.006016
+Condition    0.001554
+   Floors    0.001423
+ Bedrooms   -0.000008
+     Area   -0.000035
+   Garage   -0.000095
+YearBuilt   -0.000892
+Bathrooms   -0.003416
+
+9. BUSINESS RECOMMENDATIONS
+- Use predicted prices as an initial property valuation reference.
+- Compare prices across locations and property conditions.
+- Evaluate prediction errors before using the model operationally.
+- Validate model estimates using current local market data.
+- Retrain and reevaluate the model when new data becomes available.
+
+10. CONCLUSION
+This project demonstrates an end-to-end analytics workflow involving
+data preprocessing, exploratory analysis, statistical testing,
+visualization, regression modeling and business recommendations.
+
+The model's real-world usefulness depends on the measured test-set
+performance, data quality and whether the dataset represents the
+current housing market.
+
+Report Generated: 2026-10-12 04:01:48
